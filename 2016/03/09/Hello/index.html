@@ -7,13 +7,19 @@
 
     
 
-    <title>归档：2016 | </title>
+    <title>Live Photo 初见 | </title>
     <meta name="author" content="John Doe">
+    
+    <meta name="description" content="闲话
+&amp;lt;img src=”/img/weatherisbeautiful.jpg” width = “300” height = “120” alt=”
+Live Photos 是 iOS 9 的一个新特性，它提供相对于传统照片更生动的展现方式。当用户按下拍照键的时候，照片 APP 会捕捉比传统照片更多的内容，包括声音和更多的帧。当用户浏览这些照片时，他们能与这些照片交互并且回放那些被捕捉的内容，这样让照片看起来更加生动。
+iOS 9.1 提供了与 Live Photos 交互的 API，还可以将这些数据导出，用作分享。新提供的 Photos framework 可以从 PHImageManager 对象中取得 PHLivePhoto 的实例。这个对象可以用来表示 Live Photo 中的数据。你可以使用 PHLivePhotoView 对象来现实 Live Photo 的内容。PHLivePhotoView 用于展示图片，处理用户交互，还有对内容显示的处理。
+你还可以使用 PHAssetResource 来访问 PHLivePhoto 来进行共享操作。你可以使用 PHImageManager 或 UIImagePickerController 来从用户的照片库中请求 PHLivePhoto 对象。如果你还在开发一个 Extension，你还可以使用 NSItemProvider 对象来获取 PHLivePhoto 对象。在接受共享的一方，你可以通过发送过来的文件，来重建 PHLivePhoto对象。">
     
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    
+    <meta property="og:title" content="Live Photo 初见"/>
     <meta property="og:site_name" content="Hexo"/>
 
     
@@ -175,46 +181,109 @@
 
     <main>
         <div class="container main-container">
-    
-
-<nav class="page-nav hide-on-small-only">
+    <nav class="page-nav hide-on-small-only">
     <div class="nav-wrapper indigo">
-        <span class="breadcrumb">当前位置（归档）</span>
+        <span class="breadcrumb">当前位置（分类目录）</span>
+        
+            
+
         
 
         
     </div>
 </nav>
 
+<article>
+    <div class="card">
+        <div class="card-content">
+            
+
+            <div class="article-title">
+                
+    
+        <h1>Live Photo 初见</h1>
+    
 
 
-    <ul class="collapsible mt-0" data-collapsible="accordion">
+            </div>
+            <time class="pink-link-context" datetime="2016-03-09T07:20:08.000Z"><a href="/hjwblog/2016/03/09/Hello/">2016-03-09</a></time>
+
+
+            <span id="busuanzi_container_page_pv" class="read-times-container">
+    <i class="fa fa-eye"></i>
+    <span id="busuanzi_value_page_pv"></span>
+</span>
+
+            
+    <div class="tags-row">
         
+            <a href="/hjwblog/tags/iOS/" class="chip pink lighten-1">iOS</a>
         
-            <li>
-                <div class="collapsible-header active">
-                    <i class="fa fa-archive"></i>2016
-                </div>
-                <div class="collapsible-body">
-                    <div class="collection">
-                        
-                            <a href="/hjwblog/2016/12/28/hello-world/" class="collection-item grey-text text-darken-1">
-                                <time datetime="2016-12-27T16:28:55.846Z">2016-12-28</time>
-                                <span>&nbsp;&nbsp;&nbsp;</span>
-                                Hello World
-                            </a>
-                        
-                            <a href="/hjwblog/2016/03/09/Hello/" class="collection-item grey-text text-darken-1">
-                                <time datetime="2016-03-09T07:20:08.000Z">2016-03-09</time>
-                                <span>&nbsp;&nbsp;&nbsp;</span>
-                                Live Photo 初见
-                            </a>
-                        
-                    </div>
-                </div>
-            </li>
-        
-    </ul>
+    </div>
+
+
+            <div class="toc pink-link-context hide-on-med-and-down">
+    <ol class="section table-of-contents"><li class="section table-of-contents-item section table-of-contents-level-3"><a class="section table-of-contents-link" href="#闲话"><span class="section table-of-contents-text">闲话</span></a></li><li class="section table-of-contents-item section table-of-contents-level-3"><a class="section table-of-contents-link" href="#准备工作"><span class="section table-of-contents-text">准备工作</span></a></li></ol>
+</div>
+
+
+            <div class="entry pink-link-context">
+                <!-- toc -->
+<h3 id="闲话"><a href="#闲话" class="headerlink" title="闲话"></a>闲话</h3><img src="/hjwblog/img/weatherisbeautiful.jpg" class="[ddd]" title="[100px] [100px] [title text [alt text]]">
+<p>&lt;img src=”/img/weatherisbeautiful.jpg” width = “300” height = “120” alt=”</p>
+<p><code>Live Photos</code> 是 iOS 9 的一个新特性，它提供相对于传统照片更生动的展现方式。当用户按下拍照键<br>的时候，照片 APP 会捕捉比传统照片更多的内容，包括声音和更多的帧。当用户浏览这些照片时，他们能与这些照片交互并且回放那些被捕捉的内容，这样让照片看起来更加生动。</p>
+<p>iOS 9.1 提供了与 <code>Live Photos</code> 交互的 API，还可以将这些数据导出，用作分享。新提供的 <code>Photos framework</code> 可以从 <code>PHImageManager</code> 对象中取得 <code>PHLivePhoto</code> 的实例。这个对象可以用来表示 <code>Live Photo</code> 中的数据。你可以使用 <code>PHLivePhotoView</code> 对象来现实 <code>Live Photo</code> 的内容。<code>PHLivePhotoView</code> 用于展示图片，处理用户交互，还有对内容显示的处理。</p>
+<p>你还可以使用 <code>PHAssetResource</code> 来访问 <code>PHLivePhoto</code> 来进行共享操作。你可以使用 <code>PHImageManager</code> 或 <code>UIImagePickerController</code> 来从用户的照片库中请求 <code>PHLivePhoto</code> 对象。如果你还在开发一个 Extension，你还可以使用 <code>NSItemProvider</code> 对象来获取 <code>PHLivePhoto</code> 对象。在接受共享的一方，你可以通过发送过来的文件，来重建 <code>PHLivePhoto</code>对象。</p>
+<a id="more"></a>
+<!-- toc -->
+<h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p><code>PHLivePhotoView</code>需要导入<code>PhotosUI</code></p>
+
+                
+<p class="pink-link-context">
+    <a href="/hjwblog/2016/12/28/hello-world/" rel="next" title="Hello World">
+    上一篇：Hello World
+  </a>
+</p>
+
+
+
+
+            </div>
+			
+        </div>
+    </div>
+</article>
+
+
+
+
+    <section id="comment">
+        <div class="card">
+            <div class="card-content">
+                <!-- Duoshuo Comment BEGIN -->
+                <div class="ds-thread" data-thread-key="2016/03/09/Hello/" data-title="Live Photo 初见" data-url="https://haojiawei3.github.io/hjwblog/hjwblog/2016/03/09/Hello/"></div>
+
+                <script type="text/javascript">
+                    console.log(document.querySelector('.ds-thread'));
+                    var duoshuoQuery = {
+                        short_name: 'hjwblog1'
+                    };
+                    (function() {
+                        var ds = document.createElement('script');
+                        ds.type = 'text/javascript';
+                        ds.async = true;
+                        ds.src = (document.location.protocol == 'https:'
+                            ? 'https:'
+                            : 'http:') + '//static.duoshuo.com/embed.js';
+                        ds.charset = 'UTF-8';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+                    })();
+                </script>
+                <!-- Duoshuo Comment END -->
+            </div>
+        </div>
+    </section>
+
 
 
 </div>
